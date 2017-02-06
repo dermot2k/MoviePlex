@@ -1,0 +1,172 @@
+
+/* 
+    Created on : 11-Dec-2016, 15:52:23
+    Author     : Dermot / Jimmy
+*/
+
+
+body, html{
+        height: 100%;
+        background: #218eb0;
+}
+
+h4,h3,h2,h1{
+    text-align: center;
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:20px;
+}
+
+label {
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 250px;
+    margin-right: 15px;
+}
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.main-center{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.buttonHolder{ 
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+
+.special-img 
+{
+    position: relative;
+    top: -5px;
+    float: left;
+    left: -5px;
+}
+.profile-image  {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.table-nonfluid {
+   width: 80%;
+}
+/*
+ * Navbar
+ */
+.navbar-top {
+	margin-bottom: 0px;
+	background-color: #428bca;
+	border-color: #3174b0;
+}
+.navbar-top .navbar-brand {
+	color: #ffffff;
+}
+.navbar-top .navbar-brand:hover, .navbar-top .navbar-brand:focus {
+	color: #ecf0f1;
+}
+.navbar-top .navbar-text {
+	color: #ffffff;
+}
+.navbar-top .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-top .navbar-nav > li > a:hover, .navbar-top .navbar-nav > li > a:focus {
+	color: #ecf0f1;
+	background-color: #3174b0;
+}
+.navbar-top .navbar-nav > .active > a, .navbar-top .navbar-nav > .active > a:hover, .navbar-top .navbar-nav > .active > a:focus {
+	color: #ecf0f1;
+	background-color: #3174b0;
+}
+.navbar-top .navbar-nav > .open > a, .navbar-top .navbar-nav > .open > a:hover, .navbar-top .navbar-nav > .open > a:focus {
+	color: #ecf0f1;
+	background-color: #3174b0;
+}
+.navbar-top .navbar-toggle {
+	border-color: #3174b0;
+}
+.navbar-top .navbar-toggle:hover, .navbar-top .navbar-toggle:focus {
+	background-color: #3174b0;
+}
+.navbar-top .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-top .navbar-collapse,
+.navbar-top .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-top .navbar-link {
+	color: #ffffff;
+}
+.navbar-top .navbar-link:hover {
+	color: #ecf0f1;
+}
+
+#foot{
+    text-align: center;
+    background-color: #428BCA;
+    height: 100%;
+}
+.alert {
+    text-align: center;
+    margin: auto; display: table;
+}
+
+#particles-js{ 
+position:fixed; 
+width: 100%; 
+height: 100%; 
+background-color: transparent; 
+top:0;
+z-index:-1;
+
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+} 
+
+
+@media (max-width: 767px) {
+	.navbar-top .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-top .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-top .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ecf0f1;
+	}
+	.navbar-top .navbar-nav .open .dropdown-menu > .active > a, .navbar-top .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-top .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ecf0f1;
+		background-color: #3174b0;
+	}
+}
